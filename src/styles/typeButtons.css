@@ -1,0 +1,85 @@
+/* タイプごとの色 */
+.type-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.fire { --type-color: #dc3545; }
+.lightning { --type-color: #ffc107; }
+.ice { --type-color: #17a2b8; }
+.nature { --type-color: #28a745; }
+.arcane { --type-color: #6f42c1; }
+.dark { --type-color: #343a40; }
+.holy { --type-color: #c0c24b; }
+.sorcery { --type-color: #007bff; }
+.conjuration { --type-color: #20c997; }
+.enchantment { --type-color: #e83e8c; }
+.word { --type-color: #6c757d; }
+.orb { --type-color: #17a2b8; }
+.dragon { --type-color: #dc3545; }
+.translocation { --type-color: #6f42c1; }
+.metallic { --type-color: #6c757d; }
+.eye { --type-color: #28a745; }
+.chaos { --type-color: #fd7e14; }
+.blood { --type-color: #dc3545; }
+
+/* ライトモード */
+.type-button {
+  color: var(--type-color);
+  border-color: var(--type-color);
+  background-color: rgba(var(--type-color-rgb), 0.2);
+}
+
+.type-button.active {
+  color: #ffffff !important;
+  background-color: var(--type-color) !important;
+  border-color: var(--type-color) !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.type-button:not(.active):hover {
+  background-color: rgba(var(--type-color-rgb), 0.4);
+}
+
+/* ダークモード */
+.dark-mode .type-button {
+  color: #ffffff;
+  border-color: var(--type-color);
+  background-color: rgba(var(--type-color-rgb), 0.3);
+}
+
+.dark-mode .type-button.active {
+  color: #ffffff !important;
+  background-color: var(--type-color) !important;
+  border-color: var(--type-color) !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .type-button:not(.active) {
+  background-color: rgba(var(--type-color-rgb), 0.1) !important;
+}
+
+.dark-mode .type-button:not(.active):hover {
+  background-color: rgba(var(--type-color-rgb), 0.7) !important;
+}
+
+/* Type colors */
+.fire { --type-color-rgb: 220, 53, 69; }
+.lightning { --type-color-rgb: 255, 193, 7; }
+.ice { --type-color-rgb: 23, 162, 184; }
+.nature { --type-color-rgb: 40, 167, 69; }
+.arcane { --type-color-rgb: 111, 66, 193; }
+.dark { --type-color-rgb: 52, 58, 64; }
+.holy { --type-color-rgb: 192, 194, 75; }
+.sorcery { --type-color-rgb: 0, 123, 255; }
+.conjuration { --type-color-rgb: 32, 201, 151; }
+.enchantment { --type-color-rgb: 232, 62, 140; }
+.word { --type-color-rgb: 108, 117, 125; }
+.orb { --type-color-rgb: 23, 162, 184; }
+.dragon { --type-color-rgb: 220, 53, 69; }
+.translocation { --type-color-rgb: 111, 66, 193; }
+.metallic { --type-color-rgb: 108, 117, 125; }
+.eye { --type-color-rgb: 40, 167, 69; }
+.chaos { --type-color-rgb: 253, 126, 20; }
+.blood { --type-color-rgb: 220, 53, 69; }

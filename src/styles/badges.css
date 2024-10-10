@@ -1,0 +1,60 @@
+.bg-Fire {
+  background-color: red;
+}
+.bg-Lightning {
+  background-color: yellow;
+  --bs-badge-color: black !important;
+}
+.bg-Ice {
+  background-color: mediumturquoise;
+}
+.bg-Nature {
+  background-color: greenyellow;
+  --bs-badge-color: black !important;
+}
+.bg-Arcane {
+  background-color: brown;
+}
+.bg-Dark {
+  background-color: indigo;
+}
+.bg-Holy {
+  background-color: gold;
+  --bs-badge-color: black !important;
+}
+.bg-Sorcery {
+  background-color: darkred;
+}
+.bg-Conjuration {
+  background-color: indianred;
+}
+.bg-Enchantment {
+  background-color: lightseagreen;
+}
+.bg-Word {
+  background-color: goldenrod;
+  --bs-badge-color: black !important;
+}
+.bg-Orb {
+  background-color: pink;
+  --bs-badge-color: black !important;
+}
+.bg-Dragon {
+  background-color: darkred;
+}
+.bg-Translocation {
+  background-color: coral;
+}
+.bg-Metallic {
+  background-color: grey;
+}
+.bg-Eye {
+  background-color: aliceblue;
+  --bs-badge-color: black !important;
+}
+.bg-Chaos {
+  background-color: darkblue;
+}
+.bg-Blood {
+  background-color: maroon;
+}
